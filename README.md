@@ -14,47 +14,48 @@ In the future, I will like to increase the data and also try other pretrained mo
 
 ## Installation for Command line Application
  * Numpy
-    conda install numpy
+   -  conda install numpy
  * Matplotlib
-    conda install matplotlib
+   -  conda install matplotlib
  * Pil
-    conda install -c anaconda pil
+   -  conda install -c anaconda pil
  * Pytorch
-    conda install torch
+   -  conda install torch
  
 ## Instructions on how to run the Python Script
  - ### For the train.py the below argument need to be passed;
      * data directory
-       -  *  --data_dir
+       -  --data_dir
      * saved checkpoint directory
-       - *  --save_dir
+       -  --save_dir
      * gpu training
-       - *  --gpu
+       -  --gpu
      * architecture
-       - *  --arch
+       -  --arch
      * learning rate
-       - *  --learning_rate
+       -  --learning_rate
      * hidden units
-       - *  --hidden_units
+       -  --hidden_units
      * number of epochs
-       - *  --epochs
+       -  --epochs
   
  - ### For the predict.py the below argument need to be passed;
      * input image directory
-       -  *  --image
+       -  --image
      * checkpoint directory
-       - * --check_point
+       - --check_point
      * gpu usage
-       -   *  --gpu
+       -  --gpu
      * top k classes with probability
-       - *  --top_k
+       -  --top_k
      * category to name
-       - *  --category_to_nam
+       -  --category_to_nam
   
 ## To run the python file in the command line, use the below;
     * python train.py --data_dir dir_path --gpu True --learning_rate 0.001 after successful training.
    
-    * Then run: python predict.py --image image_name.jpg --checkpoint checkpoint.pth --gpy True
+    * Then run:
+      python predict.py --image image_name.jpg --checkpoint checkpoint.pth --gpy True
    
 ## Repository Structure
    
