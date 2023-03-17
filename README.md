@@ -1,7 +1,9 @@
 # Flower_Classification_Project
 
+![Flower Image](./plants.jpeg)
+
 ## Overview
-In this repository, I have implemented a command line application to train the model and then using the trained model you can input a flower image to predict a flower category. I have used method of transfer learning on a pretrained model(Vgg16_bn).
+In this repository, I have implemented a command line application to train a model and then using the trained model you can input a flower image to predict a flower category. I have used method of transfer learning on a Vgg16_bn pretrained model.
 
 ## Dataset Overview
 There are 102 category dataset, consisting of flower categories. The flowers chosen to be flower commonly occuring in the United Kingdom. Each class consists of between 40 and 258 images. The images have large scale, pose and light variations. In addition, there are categories that have large variations within the category and several very similar categories. The images were randomly scaled, resized also normalized in order to have similar records across the datasets.
