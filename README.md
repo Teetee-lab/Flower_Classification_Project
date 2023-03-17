@@ -13,27 +13,43 @@ The model predicted an accuracy of 82% on validation data and 90% on unseen flow
 In the future, I will like to increase the data and also try other pretrained models for more improved accuracy.
 
 ## Installation for Command line Application
- * Numpy conda install numpy
- * Matplotlib conda install matplotlib
- * Pil conda install -c anaconda pil
- * Pytorch conda install torch
+ * Numpy
+    conda install numpy
+ * Matplotlib
+    conda install matplotlib
+ * Pil
+    conda install -c anaconda pil
+ * Pytorch
+    conda install torch
  
 ## Instructions on how to run the Python Script
  - ### For the train.py the below argument need to be passed;
-     * data directory --data_dir
-     * saved checkpoint directory --save_dir
-     * gpu training --gpu
-     * architecture --arch
-     * learning rate --learning_rate
-     * hidden units --hidden_units
-     * number of epochs --epochs
+     * data directory
+       -  *  --data_dir
+     * saved checkpoint directory
+       - *  --save_dir
+     * gpu training
+       - *  --gpu
+     * architecture
+       - *  --arch
+     * learning rate
+       - *  --learning_rate
+     * hidden units
+       - *  --hidden_units
+     * number of epochs
+       - *  --epochs
   
  - ### For the predict.py the below argument need to be passed;
-     * input image directory --image
-     * checkpoint directory --check_point
-     * gpu usage --gpu
-     * top k classes with probability --top_k
-     * category to name --category_to_nam
+     * input image directory
+       -  *  --image
+     * checkpoint directory
+       - * --check_point
+     * gpu usage
+       -   *  --gpu
+     * top k classes with probability
+       - *  --top_k
+     * category to name
+       - *  --category_to_nam
   
 ## To run the python file in the command line, use the below;
     * python train.py --data_dir dir_path --gpu True --learning_rate 0.001 after successful training.
