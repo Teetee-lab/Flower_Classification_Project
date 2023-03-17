@@ -19,7 +19,7 @@ In the future, I will like to increase the data and also try other pretrained mo
  * Pytorch conda install torch
  
 ## Instructions on how to run the Python Script
- ** For the train.py the below argument need to be passed;
+ ### For the train.py the below argument need to be passed;
   * data directory --data_dir
   * saved checkpoint directory --save_dir
   * gpu training --gpu
@@ -28,24 +28,28 @@ In the future, I will like to increase the data and also try other pretrained mo
   * hidden units --hidden_units
   * number of epochs --epochs
   
- ** For the predict.py the below argument need to be passed;
+ ### For the predict.py the below argument need to be passed;
   * input image directory --image
   * checkpoint directory --check_point
   * gpu usage --gpu
   * top k classes with probability --top_k
   * category to name --category_to_nam
   
-  ** To run the python file in the command line, use the below;
+  ### To run the python file in the command line, use the below;
    * python train.py --data_dir dir_path --gpu True --learning_rate 0.001 after successful training.
    
    * Then run: python predict.py --image image_name.jpg --checkpoint checkpoint.pth --gpy True
    
-   ** Repository Structure
+## Repository Structure
    
       ├── Image Classifier Project notebook.ipynb     <- documentation of the project in Jupyter notebook            
       ├── train.py             <- training python file
       ├── predict.py           <- Prediction python file
       └── README.md            <- Top-level README
+      
+## Author
+
+Titilayo Amuwo
 
   
 
