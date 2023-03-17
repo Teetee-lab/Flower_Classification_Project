@@ -1,6 +1,6 @@
 # Flower_Classification_Project
 
-![Flower Image](img src = "https://img.freepik.com/free-photo/purple-osteospermum-daisy-flower_1373-16.jpg", width = 800, height = 800)
+![Flower Image](img src = "https://img.freepik.com/free-photo/purple-osteospermum-daisy-flower_1373-16.jpg", width = "800", height = "800")
 
 ## Overview
 In this repository, I have implemented a command line application to train a model and then using the trained model you can input a flower image to predict a flower category. I have used method of transfer learning on a Vgg16_bn pretrained model.
