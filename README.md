@@ -1,6 +1,6 @@
 # Flower_Classification_Project
 
-![Flower Image](./plants.jpeg)
+![Flower Image](././plants.jpeg)
 
 ## Overview
 In this repository, I have implemented a command line application to train a model and then using the trained model you can input a flower image to predict a flower category. I have used method of transfer learning on a Vgg16_bn pretrained model.
