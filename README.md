@@ -3,16 +3,19 @@
 ![Flower Image](https://img.freepik.com/free-photo/purple-osteospermum-daisy-flower_1373-16.jpg)
 
 ## Overview
-In this repository, I have implemented a command line application to train a model and then using the trained model you can input a flower image to predict a flower category. I have used the method of transfer learning on a Vgg16_bn pre-trained model.
+In this repository, I have implemented a method of transfer learning on a Vgg16_bn pre-trained model to train a dataset of flower categories. The output of the pretrained model is then used to build a command line application that take the image of a flower as input and predict its category.
 
 ## Dataset Overview
-There are 102 category datasets, consisting of flower categories. The flowers are chosen to be flowers commonly occurring in the United Kingdom. Each class consists of between 40 and 258 images. The images have large scale, pose, and light variations. In addition, there are categories that have large variations within the category and several very similar categories. The images were randomly scaled, resized also normalized in order to have similar records across the datasets.
+The dataset contains 102 categories of flowers, and the flowers are chosen to be the types of flowers commonly planted and grown in the United Kingdom. Each class of the flower consists of 40 and 258 images. Aside from that, the images have large scale, pose, and light variations. 
+
+## Transformation
+Due to the large scale of the images, they were randomly scaled, resized, and normalized in order to have similar records across the datasets.
 
 ## Results
-The model predicted accuracy of 82% on validation data and 90% on unseen flower images. 
+The model performed at its best by predicted an accuracy of 82% on validation data and 90% on unseen flower images. 
 
 ## Next Step
-In the future, I will like to increase the data and also try other pre-trained models for improved accuracy.
+I plan to increase the dataset by adding more flower images from other countries, also would like to incorporate other pretrained models.
 
 ## Installation for Command-line Application
  * Numpy
