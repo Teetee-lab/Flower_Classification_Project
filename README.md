@@ -12,7 +12,7 @@ The dataset contains 102 categories of flowers, and the flowers are chosen to be
 Due to the large scale of the images, they were randomly scaled, resized, and normalized in order to have similar records across the datasets.
 
 ## Results
-The model performed at its best by predicted an accuracy of 82% on validation data and 90% on unseen flower images. 
+The model performed at its best by predicting an accuracy of 82% on validation data and 90% on unseen flower images. 
 
 ## Next Step
 I plan to increase the dataset by adding more flower images from other countries, also would like to incorporate other pretrained models.
@@ -64,7 +64,7 @@ I plan to increase the dataset by adding more flower images from other countries
    
 ## Repository Structure
    
-      ├── Image Classifier Project notebook.ipynb     <- documentation of the project in Jupyter notebook            
+      ├── Image Classifier Project notebook     <- documentation of the project in Jupyter notebook            
       ├── train.py             <- training python file
       ├── predict.py           <- Prediction python file
       └── README.md            <- Top-level README
