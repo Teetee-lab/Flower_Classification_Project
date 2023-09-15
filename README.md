@@ -3,7 +3,7 @@
 ![Flower Image](https://img.freepik.com/free-photo/purple-osteospermum-daisy-flower_1373-16.jpg)
 
 ## Overview
-In this repository, I have implemented a method of transfer learning on a Vgg16_bn pre-trained model to train a dataset of flower categories. The output of the pretrained model is then used to build a command line application that take the image of a flower as input and predict its category.
+In this repository, I have implemented a method of transfer learning on a Vgg16_bn pre-trained model to train a dataset of flower categories. The output of the pre-trained model is then used to build a command line application that takes the image of a flower as input and predicts its category.
 
 ## Dataset Overview
 The dataset contains 102 categories of flowers, and the flowers are chosen to be the types of flowers commonly planted and grown in the United Kingdom. Each class of the flower consists of 40 and 258 images. Aside from that, the images have large scale, pose, and light variations. 
@@ -15,7 +15,7 @@ Due to the large scale of the images, they were randomly scaled, resized, and no
 The model performed at its best by predicting an accuracy of 82% on validation data and 90% on unseen flower images. 
 
 ## Next Step
-I plan to increase the dataset by adding more flower images from other countries, also would like to incorporate other pretrained models.
+I plan to increase the dataset by adding more flower images from other countries, also would like to incorporate other pre-trained models.
 
 ## Installation for Command-line Application
  * Numpy
